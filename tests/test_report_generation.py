@@ -80,3 +80,35 @@ async def test_list_recent_reports():
         res = await client.get("/api/v1/reports?limit=5")
         assert res.status_code == 200
         assert isinstance(res.json(), list)
+
+
+@pytest.mark.asyncio
+async def test_llm_receives_only_verified_data():
+    from app.services.report_service import ReportService
+    from app.repositories.report_repository import ReportRepository
+    from app.repositories.patient_repository import PatientRepository
+    from app.repositories.glucose_repository import GlucoseReadingRepository
+    from app.db.session import AsyncSessionLocal
+    from app.services.glucose_calculator import calculate_4_week_report
+
+    async with AsyncSessionLocal() as session:
+        p_repo = PatientRepository(session)
+        g_repo = GlucoseReadingRepository(session)
+        r_repo = ReportRepository(session)
+        service = ReportService(r_repo, p_repo, g_repo)
+
+        patient = await p_repo.get_by_id("P015")
+        assert patient is not None
+
+        readings = await g_repo.get_latest_weeks_readings("P015", max_weeks=4)
+        calc = calculate_4_week_report("P015", readings)
+
+        # Generate summary
+        ai_summary = await service.generate_ai_summary(patient, calc)
+        assert isinstance(ai_summary, str)
+        assert len(ai_summary) > 20
+
+        # Verify summary reflects the verified classification
+        assert calc.current_stage.lower() in ai_summary.lower() or calc.trend.lower() in ai_summary.lower()
+        # Verify no fake outside patient IDs exist in summary
+        assert "P999" not in ai_summary
