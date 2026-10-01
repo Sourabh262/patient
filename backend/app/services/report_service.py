@@ -14,7 +14,6 @@ from app.schemas.report import (
     PatientInfoSummary,
     ReportResponse,
 )
-from app.agent.llm import get_llm
 from app.core.logging import logger
 
 
@@ -65,6 +64,7 @@ class ReportService:
         )
 
         try:
+            from app.agent.llm import get_llm
             llm = get_llm(temperature=0.0)
             res = await llm.ainvoke([SystemMessage(content=system_instruction), HumanMessage(content=user_prompt)])
             summary = res.content.strip() if hasattr(res, "content") and res.content else ""
