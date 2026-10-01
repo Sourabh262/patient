@@ -75,3 +75,14 @@ async def add_glucose_reading(
     glucose_service: GlucoseService = Depends(get_glucose_service),
 ):
     return await glucose_service.add_reading(patient_id=patient_id, payload=payload)
+
+
+@router.get(
+    "/{patient_id}/calculate-report",
+    summary="Deterministically calculate 4-week glucose averages, stages, and trend",
+)
+async def calculate_patient_glucose_report(
+    patient_id: str,
+    glucose_service: GlucoseService = Depends(get_glucose_service),
+):
+    return await glucose_service.calculate_4_week_summary(patient_id=patient_id)

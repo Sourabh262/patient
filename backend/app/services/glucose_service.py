@@ -94,3 +94,8 @@ class GlucoseService:
                 detail=f"Patient with ID '{patient_id}' not found.",
             )
         return await self.glucose_repo.get_latest_weeks_readings(patient_id, max_weeks=4)
+
+    async def calculate_4_week_summary(self, patient_id: str):
+        from app.services.glucose_calculator import calculate_4_week_report
+        readings = await self.get_latest_4_weeks(patient_id)
+        return calculate_4_week_report(patient_id=patient_id, readings=readings)
