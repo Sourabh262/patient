@@ -30,7 +30,11 @@ class PatientRepository(BaseRepository[Patient]):
     async def list_patients(
         self, skip: int = 0, limit: int = 100, search: Optional[str] = None
     ) -> List[Patient]:
-        stmt = select(Patient).order_by(Patient.patient_id.asc())
+        stmt = (
+            select(Patient)
+            .options(selectinload(Patient.readings))
+            .order_by(Patient.patient_id.asc())
+        )
         if search:
             search_pattern = f"%{search.strip()}%"
             stmt = stmt.where(
