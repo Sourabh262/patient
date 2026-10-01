@@ -17,6 +17,8 @@ from app.schemas.report import (
     FourWeekCalculationResult,
     ReportCreate,
     ReportResponse,
+    FullPatientReportResponse,
+    PatientInfoSummary,
 )
 from app.schemas.common import MessageResponse, PaginationMeta
 
@@ -35,6 +37,8 @@ __all__ = [
     "FourWeekCalculationResult",
     "ReportCreate",
     "ReportResponse",
+    "FullPatientReportResponse",
+    "PatientInfoSummary",
     "MessageResponse",
     "PaginationMeta",
 ]

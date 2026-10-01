@@ -27,6 +27,32 @@ class ReportCreate(BaseModel):
     patient_id: str
 
 
+class PatientInfoSummary(BaseModel):
+    patient_id: str
+    name: str
+    phone: str
+    email: str
+    address: str
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class FullPatientReportResponse(BaseModel):
+    report_id: int
+    generated_at: datetime
+    patient: PatientInfoSummary
+    weekly_averages: Dict[str, Optional[float]]
+    weekly_stages: Dict[str, str]
+    current_stage: str
+    trend: str
+    ai_summary: str
+    email_sent: bool = False
+    email_sent_at: Optional[datetime] = None
+    email_recipient: Optional[str] = None
+
+    model_config = ConfigDict(from_attributes=True)
+
+
 class ReportResponse(BaseModel):
     id: int
     patient_id: str
