@@ -60,3 +60,38 @@ async def list_recent_reports(
 ):
     reports = await service.list_recent_reports(limit=limit)
     return reports
+
+
+@router.post(
+    "/{report_id}/send-email",
+    summary="Email clinical report to the patient's registered address",
+)
+async def send_report_email(
+    report_id: int,
+    service: ReportService = Depends(get_report_service),
+):
+    from app.api.deps import get_email_service, get_patient_service
+    from app.services.email_service import EmailService
+
+    report = await service.report_repo.get(report_id)
+    if not report:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Report with ID '{report_id}' not found.",
+        )
+    patient = await service.patient_repo.get_by_id(report.patient_id)
+    if not patient:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Patient '{report.patient_id}' not found.",
+        )
+
+    email_svc = EmailService()
+    result = await email_svc.send_patient_report_email(patient, report)
+    await service.mark_report_emailed(report_id, recipient=patient.email)
+
+    return {
+        "status": "success",
+        "message": f"Report successfully emailed to {patient.email}",
+        "details": result,
+    }
