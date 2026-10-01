@@ -8,6 +8,8 @@ from app.repositories.glucose_repository import GlucoseReadingRepository
 from app.repositories.report_repository import ReportRepository
 from app.services.patient_service import PatientService
 from app.services.glucose_service import GlucoseService
+from app.services.report_service import ReportService
+from app.services.email_service import EmailService
 from app.services.glucose_calculator import calculate_4_week_report
 from app.core.logging import logger
 
@@ -116,52 +118,28 @@ async def generate_report(patient_id: str) -> str:
         p_repo = PatientRepository(session)
         g_repo = GlucoseReadingRepository(session)
         r_repo = ReportRepository(session)
+        service = ReportService(r_repo, p_repo, g_repo)
 
-        # 1. Fetch patient
-        patient = await p_repo.get_by_id(clean_id)
-        if not patient:
-            return json.dumps({"error": f"Patient '{clean_id}' does not exist in registry."})
-
-        # 2. Retrieve readings and calculate
-        readings = await g_repo.get_latest_weeks_readings(clean_id, max_weeks=4)
-        calc = calculate_4_week_report(patient_id=clean_id, readings=readings)
-
-        # 3. Create verified AI summary
-        summary = (
-            f"Patient {patient.name} ({clean_id}) has completed 4-week glycemic monitoring. "
-            f"Current classification is {calc.current_stage} with an overall '{calc.trend}' trajectory. "
-            f"Week 1 avg: {calc.weekly_averages.get('week_1')} mg/dL ({calc.weekly_stages.get('week_1')}); "
-            f"Week 4 avg: {calc.weekly_averages.get('week_4')} mg/dL ({calc.weekly_stages.get('week_4')}). "
-            f"Total readings analyzed: {calc.total_readings_analyzed}."
-        )
-
-        from app.models.report import Report
-
-        report = Report(
-            patient_id=clean_id,
-            weekly_averages=calc.weekly_averages,
-            weekly_stages=calc.weekly_stages,
-            current_stage=calc.current_stage,
-            trend=calc.trend,
-            ai_summary=summary,
-        )
-        saved = await r_repo.create(report)
-        await session.commit()
-
-        return json.dumps(
-            {
-                "report_id": saved.id,
-                "patient_id": clean_id,
-                "patient_name": patient.name,
-                "email": patient.email,
-                "weekly_averages": saved.weekly_averages,
-                "weekly_stages": saved.weekly_stages,
-                "current_stage": saved.current_stage,
-                "trend": saved.trend,
-                "ai_summary": saved.ai_summary,
-            },
-            indent=2,
-        )
+        try:
+            saved = await service.generate_and_save_report(clean_id)
+            patient = await p_repo.get_by_id(clean_id)
+            return json.dumps(
+                {
+                    "report_id": saved.id,
+                    "patient_id": clean_id,
+                    "patient_name": patient.name if patient else "",
+                    "email": patient.email if patient else "",
+                    "weekly_averages": saved.weekly_averages,
+                    "weekly_stages": saved.weekly_stages,
+                    "current_stage": saved.current_stage,
+                    "trend": saved.trend,
+                    "ai_summary": saved.ai_summary,
+                },
+                indent=2,
+            )
+        except Exception as e:
+            logger.warning("generate_report tool error for %s: %s", clean_id, str(e))
+            return json.dumps({"error": f"Failed generating report for '{clean_id}': {str(e)}"})
 
 
 @tool(args_schema=PatientToolInput)
@@ -169,36 +147,41 @@ async def send_email(patient_id: str) -> str:
     """Send the latest verified 4-week glucose clinical report to the patient's registered email address.
     """
     clean_id = patient_id.strip().upper()
+    from app.services.email_service import EmailService
+
     async with AsyncSessionLocal() as session:
         p_repo = PatientRepository(session)
+        g_repo = GlucoseReadingRepository(session)
         r_repo = ReportRepository(session)
+        rep_service = ReportService(r_repo, p_repo, g_repo)
+        email_service = EmailService()
 
         patient = await p_repo.get_by_id(clean_id)
         if not patient:
             return json.dumps({"error": f"Patient '{clean_id}' not found."})
 
-        # Ensure a report exists, or generate one
-        report = await r_repo.get_latest_by_patient(clean_id)
+        # Ensure a report exists or generate one
+        report = await rep_service.get_latest_report(clean_id)
         if not report:
-            # Generate report first
-            gen_res = json.loads(await generate_report.ainvoke({"patient_id": clean_id}))
-            report_id = gen_res.get("report_id")
-            report = await r_repo.get(report_id)
+            report = await rep_service.generate_and_save_report(clean_id)
 
-        # Mark sent in database
-        await r_repo.mark_email_sent(report.id, recipient=patient.email)
-        await session.commit()
-
-        return json.dumps(
-            {
-                "status": "success",
-                "message": f"4-week glucose report successfully dispatched to {patient.email}.",
-                "recipient": patient.email,
-                "patient_id": clean_id,
-                "report_id": report.id,
-            },
-            indent=2,
-        )
+        try:
+            result = await email_service.send_patient_report_email(patient, report)
+            await rep_service.mark_report_emailed(report.id, recipient=patient.email)
+            return json.dumps(
+                {
+                    "status": "success",
+                    "message": f"4-week glucose report successfully dispatched to {patient.email}.",
+                    "recipient": patient.email,
+                    "patient_id": clean_id,
+                    "report_id": report.id,
+                    "details": result,
+                },
+                indent=2,
+            )
+        except Exception as e:
+            logger.error("send_email tool error for %s: %s", clean_id, str(e))
+            return json.dumps({"error": f"Failed to send email to patient '{clean_id}': {str(e)}"})
 
 
 ALL_AGENT_TOOLS = [
