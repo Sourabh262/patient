@@ -1,0 +1,3152 @@
+[
+  {
+    "patient_id": "P001",
+    "name": "Emma Smith",
+    "phone": "+1-555-200-1000",
+    "email": "emma.smith@hospital-patient.org",
+    "address": "12 Maple Ave, Boston, MA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 82.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 86.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 82.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 81.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 86.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P002",
+    "name": "Liam Johnson",
+    "phone": "+1-555-201-1017",
+    "email": "liam.johnson@hospital-patient.org",
+    "address": "24 Oak St, Chicago, IL",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 92.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 90.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 91.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 86.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 92.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P003",
+    "name": "Olivia Williams",
+    "phone": "+1-555-202-1034",
+    "email": "olivia.williams@hospital-patient.org",
+    "address": "36 Pine Rd, Austin, TX",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 96.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 95.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 92.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 91.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 90.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 96.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 95.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 91.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 90.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P004",
+    "name": "Noah Brown",
+    "phone": "+1-555-203-1051",
+    "email": "noah.brown@hospital-patient.org",
+    "address": "48 Cedar Blvd, Seattle, WA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 81.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 80.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 80.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 79.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 79.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 82.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 82.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 81.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P005",
+    "name": "Ava Jones",
+    "phone": "+1-555-204-1068",
+    "email": "ava.jones@hospital-patient.org",
+    "address": "60 Elm St, Denver, CO",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 95.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 90.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 91.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 86.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 92.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 95.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P006",
+    "name": "Ethan Garcia",
+    "phone": "+1-555-205-1085",
+    "email": "ethan.garcia@hospital-patient.org",
+    "address": "72 Washington Ave, Atlanta, GA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 86.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 90.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 85.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 84.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 83.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 91.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 88.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 87.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 86.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P007",
+    "name": "Sophia Miller",
+    "phone": "+1-555-206-1102",
+    "email": "sophia.miller@hospital-patient.org",
+    "address": "84 Lakeview Dr, Boston, MA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 104.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 104.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 104.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 104.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P008",
+    "name": "Mason Davis",
+    "phone": "+1-555-207-1119",
+    "email": "mason.davis@hospital-patient.org",
+    "address": "96 Park Rd, Chicago, IL",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 116.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 111.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 117.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 119.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 114.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 115.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 110.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 116.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 111.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 117.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P009",
+    "name": "Isabella Rodriguez",
+    "phone": "+1-555-208-1136",
+    "email": "isabella.rodriguez@hospital-patient.org",
+    "address": "108 Highland Ave, Austin, TX",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 107.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 106.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 104.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 102.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 101.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 108.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 106.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 104.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 103.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 101.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 108.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 107.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P010",
+    "name": "William Martinez",
+    "phone": "+1-555-209-1153",
+    "email": "william.martinez@hospital-patient.org",
+    "address": "120 Sunset Blvd, Seattle, WA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 114.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 116.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 125.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 114.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 116.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 123.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 125.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 114.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 121.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 123.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 125.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P011",
+    "name": "Mia Hernandez",
+    "phone": "+1-555-210-1170",
+    "email": "mia.hernandez@hospital-patient.org",
+    "address": "132 Forest St, Denver, CO",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 108.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 114.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 115.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 110.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 116.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 111.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 117.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 107.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 113.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 108.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 114.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 115.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P012",
+    "name": "James Lopez",
+    "phone": "+1-555-211-1187",
+    "email": "james.lopez@hospital-patient.org",
+    "address": "144 River Rd, Atlanta, GA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 127.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 122.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 126.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 127.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 122.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 126.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 127.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 122.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 126.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 127.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 122.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 126.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P013",
+    "name": "Charlotte Gonzalez",
+    "phone": "+1-555-212-1204",
+    "email": "charlotte.gonzalez@hospital-patient.org",
+    "address": "156 Maple Ave, Boston, MA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 148.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 144.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 140.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 136.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 140.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 136.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 153.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 149.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 153.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 149.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 145.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 141.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 145.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 141.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 137.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 154.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P014",
+    "name": "Benjamin Wilson",
+    "phone": "+1-555-213-1221",
+    "email": "benjamin.wilson@hospital-patient.org",
+    "address": "168 Oak St, Chicago, IL",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 152.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 169.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 161.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 153.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 165.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 157.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 149.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 166.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 153.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 170.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 162.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 154.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 166.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 158.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 150.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 167.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P015",
+    "name": "Amelia Anderson",
+    "phone": "+1-555-214-1238",
+    "email": "amelia.anderson@hospital-patient.org",
+    "address": "180 Pine Rd, Austin, TX",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 178.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 164.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 181.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 167.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 160.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 177.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 163.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 180.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 173.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 190.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 176.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 162.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 186.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 172.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 189.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 175.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P016",
+    "name": "Lucas Thomas",
+    "phone": "+1-555-215-1255",
+    "email": "lucas.thomas@hospital-patient.org",
+    "address": "192 Cedar Blvd, Seattle, WA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 163.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 163.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 163.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 163.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 159.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 159.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 159.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 159.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 155.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 155.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 155.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 155.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 151.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 151.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 151.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 151.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P017",
+    "name": "Harper Taylor",
+    "phone": "+1-555-216-1272",
+    "email": "harper.taylor@hospital-patient.org",
+    "address": "204 Elm St, Denver, CO",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 163.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 180.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 168.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 156.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 176.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 164.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 181.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 169.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 160.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 177.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 165.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 182.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 173.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 161.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 178.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 166.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P018",
+    "name": "Henry Moore",
+    "phone": "+1-555-217-1289",
+    "email": "henry.moore@hospital-patient.org",
+    "address": "216 Washington Ave, Atlanta, GA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 166.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 183.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 167.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 184.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 179.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 196.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 180.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 197.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 192.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 176.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 193.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 177.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 172.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 189.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 173.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 190.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P019",
+    "name": "Evelyn Jackson",
+    "phone": "+1-555-218-1306",
+    "email": "evelyn.jackson@hospital-patient.org",
+    "address": "228 Lakeview Dr, Boston, MA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 206.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 223.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 199.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 216.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 219.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 195.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 212.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 229.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 191.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 208.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 225.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 201.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 204.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 221.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 197.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 214.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P020",
+    "name": "Alexander Martin",
+    "phone": "+1-555-219-1323",
+    "email": "alexander.martin@hospital-patient.org",
+    "address": "240 Park Rd, Chicago, IL",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 249.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 215.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 232.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 249.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 211.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 228.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 245.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 211.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 224.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 241.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 207.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 224.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 237.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 254.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 220.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 237.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P021",
+    "name": "Abigail Lee",
+    "phone": "+1-555-220-1340",
+    "email": "abigail.lee@hospital-patient.org",
+    "address": "252 Highland Ave, Austin, TX",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 192.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 209.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 189.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 206.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 205.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 222.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 202.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 219.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 218.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 198.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 215.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 195.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 194.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 211.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 191.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 208.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P022",
+    "name": "Michael Perez",
+    "phone": "+1-555-221-1357",
+    "email": "michael.perez@hospital-patient.org",
+    "address": "264 Sunset Blvd, Seattle, WA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 248.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 265.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 237.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 254.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 261.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 233.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 250.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 267.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 229.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 246.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 263.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 235.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 242.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 259.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 231.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 248.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P023",
+    "name": "Emily Thompson",
+    "phone": "+1-555-222-1374",
+    "email": "emily.thompson@hospital-patient.org",
+    "address": "276 Forest St, Denver, CO",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 61.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 67.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 68.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 63.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 69.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 64.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 59.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 65.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 60.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 61.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 67.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 68.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 63.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P024",
+    "name": "Daniel White",
+    "phone": "+1-555-223-1391",
+    "email": "daniel.white@hospital-patient.org",
+    "address": "288 River Rd, Atlanta, GA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 67.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 71.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 67.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 71.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 67.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 71.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 67.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 71.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P025",
+    "name": "Elizabeth Harris",
+    "phone": "+1-555-224-1408",
+    "email": "elizabeth.harris@hospital-patient.org",
+    "address": "300 Maple Ave, Boston, MA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 59.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 58.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 65.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 63.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 61.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 60.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 58.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 66.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 65.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 64.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 62.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 61.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 60.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 59.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P026",
+    "name": "Matthew Sanchez",
+    "phone": "+1-555-225-1425",
+    "email": "matthew.sanchez@hospital-patient.org",
+    "address": "312 Oak St, Chicago, IL",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 165.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 169.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 160.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 164.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 145.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 149.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 140.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 144.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 125.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 129.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 120.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 124.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 98.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 102.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 97.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P027",
+    "name": "Mila Clark",
+    "phone": "+1-555-226-1442",
+    "email": "mila.clark@hospital-patient.org",
+    "address": "324 Pine Rd, Austin, TX",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 153.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 148.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 154.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 149.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 140.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 135.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 130.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 136.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 111.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 117.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 112.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 118.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 99.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 100.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P028",
+    "name": "Aiden Ramirez",
+    "phone": "+1-555-227-1459",
+    "email": "aiden.ramirez@hospital-patient.org",
+    "address": "336 Cedar Blvd, Seattle, WA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 140.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 139.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 138.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 137.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 132.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 131.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 130.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 129.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 109.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 108.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 107.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 106.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 95.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 93.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 92.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P029",
+    "name": "Ella Lewis",
+    "phone": "+1-555-228-1476",
+    "email": "ella.lewis@hospital-patient.org",
+    "address": "348 Elm St, Denver, CO",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 90.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 94.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 98.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 89.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 107.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 111.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 115.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 106.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 130.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 134.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 138.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 129.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 160.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 164.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 168.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 159.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  },
+  {
+    "patient_id": "P030",
+    "name": "David Robinson",
+    "phone": "+1-555-229-1493",
+    "email": "david.robinson@hospital-patient.org",
+    "address": "360 Washington Ave, Atlanta, GA",
+    "readings": [
+      {
+        "week_number": 1,
+        "glucose_value": 99.0,
+        "timestamp": "2026-09-01T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 101.0,
+        "timestamp": "2026-09-03T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 103.0,
+        "timestamp": "2026-09-05T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 1,
+        "glucose_value": 105.0,
+        "timestamp": "2026-09-06T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 115.0,
+        "timestamp": "2026-09-08T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 117.0,
+        "timestamp": "2026-09-10T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 119.0,
+        "timestamp": "2026-09-12T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 2,
+        "glucose_value": 121.0,
+        "timestamp": "2026-09-13T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 137.0,
+        "timestamp": "2026-09-15T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 139.0,
+        "timestamp": "2026-09-17T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 141.0,
+        "timestamp": "2026-09-19T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 3,
+        "glucose_value": 143.0,
+        "timestamp": "2026-09-20T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 165.0,
+        "timestamp": "2026-09-22T08:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 167.0,
+        "timestamp": "2026-09-24T04:00:00+00:00",
+        "meal_context": "post_prandial"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 169.0,
+        "timestamp": "2026-09-26T00:00:00+00:00",
+        "meal_context": "fasting"
+      },
+      {
+        "week_number": 4,
+        "glucose_value": 171.0,
+        "timestamp": "2026-09-27T20:00:00+00:00",
+        "meal_context": "post_prandial"
+      }
+    ]
+  }
+]
