@@ -30,8 +30,9 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
-# Include API v1 routes
+# Include API routes (/api/v1 and /api for versatility)
 app.include_router(api_router, prefix=settings.API_V1_STR)
+app.include_router(api_router, prefix="/api")
 
 # CORS Middleware
 app.add_middleware(
