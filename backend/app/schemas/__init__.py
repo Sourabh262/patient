@@ -12,6 +12,12 @@ from app.schemas.glucose import (
     GlucoseReadingResponse,
     GlucoseReadingListResponse,
 )
+from app.schemas.report import (
+    WeeklyMetric,
+    FourWeekCalculationResult,
+    ReportCreate,
+    ReportResponse,
+)
 from app.schemas.common import MessageResponse, PaginationMeta
 
 __all__ = [
@@ -25,6 +31,10 @@ __all__ = [
     "GlucoseReadingCreate",
     "GlucoseReadingResponse",
     "GlucoseReadingListResponse",
+    "WeeklyMetric",
+    "FourWeekCalculationResult",
+    "ReportCreate",
+    "ReportResponse",
     "MessageResponse",
     "PaginationMeta",
 ]
